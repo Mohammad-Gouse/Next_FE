@@ -71,7 +71,6 @@ const FilterComponent = ({ filters, setFilters, onApplyFilters, onClearFilters }
       } else {
         console.log('data not found')
         setHasMore(false)
-        return
       }
 
       const newColumnValues = [...columnValues];
